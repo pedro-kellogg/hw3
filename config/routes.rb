@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   post("/places",       { :controller => "places", :action => "create" })
   get("/places/:id",    { :controller => "places", :action => "show"   })
 
-  # Entries
+  #entris 
   get("/places/:place_id/entries/new",  { :controller => "entries", :action => "new"    })
   post("/places/:place_id/entries",     { :controller => "entries", :action => "create" })
 
